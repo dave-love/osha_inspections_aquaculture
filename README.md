@@ -3,9 +3,6 @@ A repository to download and analyze OSHA inspection and violation data for the 
 
 This repository contains R code used to reproduce Supplementary Tables S4 and S5 in a manuscript about worker safety in U.S. aquaculture by Dave Love and colleagues. The analysis summarizes OSHA inspection and violation records for the U.S. aquaculture sector (NAICS code 1125), by state and by OSHA State Plan status.
 
-Declaration of generative AI use:
-Generative AI was used to assist in writing and debugging R code used to download, clean, and prepare tables as well as to develop the file structure for two GitHub repositories. All code was reviewed, tested, and verified by the authors, who take full responsibility for its accuracy and outputs. Generative AI was not used for conceptual design, analyzing or interpreting qualitative data, manuscript writing or editing.
-
 ## Data source
 
 Data are scraped directly from OSHA's public inspection search tool:
@@ -30,6 +27,10 @@ reason, the exact data pull used in the manuscript is included in `data/`
 ├── output/
 │   └── osha_summary_tables.xlsx # Generated Tables S4-S5 (created by script 2)
 └── README.
+
+```
+## Declaration of generative AI use:
+Generative AI was used to assist in writing and debugging R code used to download, clean, and prepare tables as well as to develop the file structure for this GitHub repository. All code was reviewed, tested, and verified by the authors, who take full responsibility for its accuracy and outputs.
 
 ## Contact for more information
 
