@@ -81,11 +81,11 @@ if (!dir.exists(output_dir)) dir.create(output_dir)
 
 wb <- createWorkbook()
 
-addWorksheet(wb, "Table S4 - Violations by State")
-writeData(wb, "Table S4 - Violations by State", violations_by_state)
+addWorksheet(wb, "Table S4 - Violations")
+writeData(wb, "Table S4 - Violations", violations_by_state)
 
-addWorksheet(wb, "Table S5 - Summary by State Plan")
-writeData(wb, "Table S5 - Summary by State Plan", summary_state_plan)
+addWorksheet(wb, "Table S5 - State Plan")
+writeData(wb, "Table S5 - State Plan", summary_state_plan)
 
 saveWorkbook(wb, file.path(output_dir, "osha_summary_tables.xlsx"), overwrite = TRUE)
 
