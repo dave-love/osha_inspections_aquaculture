@@ -30,3 +30,12 @@ reason, the exact data pull used in the manuscript is included in `data/`
 ├── output/
 │   └── osha_summary_tables.xlsx # Generated Tables S4-S5 (created by script 2)
 └── README.
+
+## Contact for more information
+
+Dave Love, PhD, MSPH  
+Research Professor  
+Johns Hopkins Center for a Livable Future  
+Department of Environmental Health and Engineering  
+Johns Hopkins Bloomberg School of Public Health  
+dlove8@jhu.edu
