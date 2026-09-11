@@ -1,0 +1,6 @@
+Data pulled on: 2026-09-11
+NAICS code: 1125
+Date ranges queried:
+  2003-2010
+  2011-2019
+  2020-2025
