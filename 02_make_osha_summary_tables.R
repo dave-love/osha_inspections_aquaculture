@@ -52,7 +52,8 @@ osha1125 <- osha_raw %>%
     Sector       = "Aquaculture",
     `State Plan` = ifelse(State %in% state_plan_states, "yes", "no")
   ) %>%
-  select(-`Date Opened`)
+  select(-`Date Opened`)%>%
+  filter(!is.na(State) & State != "")
 
 # ---- 3. Summarize ----------------------------------------------------------------
 
